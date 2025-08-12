@@ -41,9 +41,9 @@ const Sidebar = ({ expanded, setExpanded }) => {
       initial={false}
       animate={expanded ? 'expanded' : 'collapsed'}
       transition={{ duration: 0.3, ease: 'easeInOut' }}
-      className="sticky top-0 h-screen bg-gray-900 text-white flex flex-col z-40"
+      className="sticky top-0 h-screen bg-secondary-900 text-white flex flex-col z-40"
     >
-      <div className="flex items-center justify-between p-4 border-b border-gray-700 h-20">
+      <div className="flex items-center justify-between p-4 border-b border-secondary-700 h-20">
         <AnimatePresence>
           {expanded && (
             <motion.div
@@ -60,7 +60,7 @@ const Sidebar = ({ expanded, setExpanded }) => {
         </AnimatePresence>
         <button
           onClick={() => setExpanded(!expanded)}
-          className="p-2 rounded-full hover:bg-gray-800 transition-colors"
+          className="p-2 rounded-full hover:bg-secondary-800 transition-colors"
         >
           <motion.div animate={{ rotate: expanded ? 0 : 180 }} transition={{ duration: 0.3 }}>
             <ChevronLeft className="w-6 h-6" />
