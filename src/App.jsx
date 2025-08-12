@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 const Sidebar = ({ expanded, setExpanded }) => {
   const navItems = [
     { name: 'Início', icon: Home, href: '#inicio' },
-    { name: 'Sobre', icon: Info, href: '#sobre' },
+    { name: 'Sobre Nós', icon: Info, href: '#sobre' },
     { name: 'Produtos', icon: ShoppingBag, href: '#servicos' },
     { name: 'Contato', icon: Mail, href: '#contato' },
   ];
