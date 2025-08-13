@@ -6,31 +6,31 @@ export default function About() {
   const features = [
     {
       icon: Heart,
-      title: "Amor GenuÃ­no",
-      description: "Cada produto Ã© selecionado pensando no bem-estar e felicidade do seu cÃ£o."
+      title: "Amor Genuíno",
+      description: "Cada produto é selecionado pensando no bem-estar e felicidade do seu cão."
     },
     {
       icon: Shield,
       title: "Qualidade Garantida",
-      description: "Trabalhamos apenas com marcas confiÃ¡veis e produtos testados."
+      description: "Trabalhamos apenas com marcas confiáveis e produtos testados."
     },
     {
       icon: Award,
-      title: "ExcelÃªncia no Atendimento",
-      description: "Nossa equipe especializada estÃ¡ sempre pronta para ajudar vocÃª e seu pet."
+      title: "Excelência no Atendimento",
+      description: "Nossa equipe especializada está sempre pronta para ajudar você e seu pet."
     },
     {
       icon: Sparkles,
       title: "Produtos Exclusivos",
-      description: "Itens Ãºnicos e especiais que vocÃª nÃ£o encontra em qualquer lugar."
+      description: "Itens únicos e especiais que você não encontra em qualquer lugar."
     }
   ]
 
   const stats = [
     { number: "1000+", label: "Clientes Felizes", icon: Users },
-    { number: "5+", label: "Anos de ExperiÃªncia", icon: Clock },
-    { number: "500+", label: "Produtos DisponÃ­veis", icon: Star },
-    { number: "100%", label: "SatisfaÃ§Ã£o Garantida", icon: Award }
+    { number: "5+", label: "Anos de Experiência", icon: Clock },
+    { number: "500+", label: "Produtos Disponíveis", icon: Star },
+    { number: "100%", label: "Satisfação Garantida", icon: Award }
   ]
 
   return (
@@ -55,13 +55,13 @@ export default function About() {
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
             Cuidando do seu{' '}
             <span className="gradient-text">melhor amigo</span>
-            <br />com dedicaÃ§Ã£o total
+            <br />com dedicação total
           </h2>
           
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Na Clinicao, acreditamos que cada cÃ£o merece o melhor cuidado e carinho. 
+            Na Clinicao, acreditamos que cada cão merece o melhor cuidado e carinho. 
             Somos especializados em produtos premium que proporcionam qualidade de vida, 
-            saÃºde e felicidade para o seu companheiro de quatro patas.
+            saúde e felicidade para o seu companheiro de quatro patas.
           </p>
         </motion.div>
 
@@ -77,20 +77,20 @@ export default function About() {
           >
             <div className="space-y-6">
               <h3 className="text-3xl font-bold text-gray-800 leading-tight">
-                Nossa missÃ£o Ã© simples: fazer seu cÃ£o mais feliz e saudÃ¡vel
+                Nossa missão é simples: fazer seu cão mais feliz e saudável
               </h3>
               
               <p className="text-lg text-gray-600 leading-relaxed">
-                Fundada com amor e dedicaÃ§Ã£o aos animais, a Clinicao nasceu do desejo de 
-                oferecer produtos e serviÃ§os de alta qualidade para cÃ£es. Sabemos que seu 
-                pet nÃ£o Ã© apenas um animal, mas um membro da famÃ­lia que merece todo cuidado 
-                e atenÃ§Ã£o especial.
+                Fundada com amor e dedicação aos animais, a Clinicao nasceu do desejo de 
+                oferecer produtos e serviços de alta qualidade para cães. Sabemos que seu 
+                pet não é apenas um animal, mas um membro da família que merece todo cuidado 
+                e atenção especial.
               </p>
               
               <p className="text-lg text-gray-600 leading-relaxed">
-                Nossa equipe Ã© formada por especialistas apaixonados por animais, que 
+                Nossa equipe é formada por especialistas apaixonados por animais, que 
                 trabalham incansavelmente para selecionar os melhores produtos do mercado, 
-                garantindo que cada item atenda aos mais altos padrÃµes de qualidade e seguranÃ§a.
+                garantindo que cada item atenda aos mais altos padrões de qualidade e segurança.
               </p>
             </div>
 
@@ -106,7 +106,7 @@ export default function About() {
                 <h4 className="text-xl font-semibold">Nosso Compromisso</h4>
               </div>
               <p className="text-orange-100 leading-relaxed">
-                "Tratamos cada cliente como famÃ­lia e cada pet como se fosse nosso. 
+                "Tratamos cada cliente como família e cada pet como se fosse nosso. 
                 Essa filosofia nos guia em tudo o que fazemos."
               </p>
             </motion.div>
@@ -136,7 +136,7 @@ export default function About() {
                   </motion.div>
                   <h3 className="text-2xl font-bold mb-4">Amor em Cada Detalhe</h3>
                   <p className="text-orange-100">
-                    Selecionamos cada produto pensando no bem-estar do seu cÃ£o
+                    Selecionamos cada produto pensando no bem-estar do seu cão
                   </p>
                 </div>
               </motion.div>
@@ -200,10 +200,10 @@ export default function About() {
         >
           <div className="text-center mb-12">
             <h3 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-              NÃºmeros que falam por si
+              Números que falam por si
             </h3>
             <p className="text-orange-100 text-lg">
-              A confianÃ§a dos nossos clientes Ã© nossa maior conquista
+              A confiança dos nossos clientes é nossa maior conquista
             </p>
           </div>
 
