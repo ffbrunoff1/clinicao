@@ -6,51 +6,51 @@ export default function Services() {
   const services = [
     {
       icon: Package,
-      title: "Ração Premium",
-      description: "Seleção especial de rações super premium para todas as idades e portes. Nutrição balanceada para uma vida saudável e cheia de energia.",
-      features: ["Ingredientes naturais", "Sem conservantes artificiais", "Rica em proteínas", "Fácil digestão"],
-      color: "from-orange-500 to-red-500",
-      image: "🍖"
+      title: "RaÃ§Ã£o Premium",
+      description: "SeleÃ§Ã£o especial de raÃ§Ãµes super premium para todas as idades e portes. NutriÃ§Ã£o balanceada para uma vida saudÃ¡vel e cheia de energia.",
+      features: ["Ingredientes naturais", "Sem conservantes artificiais", "Rica em proteÃ­nas", "FÃ¡cil digestÃ£o"],
+      color: "from-blue-500 to-indigo-500",
+      image: "ð"
     },
     {
       icon: Gift,
       title: "Brinquedos Interativos",
-      description: "Brinquedos educativos e divertidos que estimulam a inteligência e proporcionam horas de diversão para seu melhor amigo.",
-      features: ["Estimula a mente", "Material resistente", "Seguro e atóxico", "Várias modalidades"],
+      description: "Brinquedos educativos e divertidos que estimulam a inteligÃªncia e proporcionam horas de diversÃ£o para seu melhor amigo.",
+      features: ["Estimula a mente", "Material resistente", "Seguro e atÃ³xico", "VÃ¡rias modalidades"],
       color: "from-purple-500 to-pink-500",
-      image: "🎾"
+      image: "ð¾"
     },
     {
       icon: Heart,
-      title: "Acessórios de Luxo",
-      description: "Coleiras, guias, camas e acessórios premium que combinam estilo, conforto e funcionalidade para o seu cão.",
-      features: ["Design exclusivo", "Material premium", "Conforto máximo", "Durabilidade garantida"],
-      color: "from-blue-500 to-purple-500",
-      image: "👑"
+      title: "AcessÃ³rios de Luxo",
+      description: "Coleiras, guias, camas e acessÃ³rios premium que combinam estilo, conforto e funcionalidade para o seu cÃ£o.",
+      features: ["Design exclusivo", "Material premium", "Conforto mÃ¡ximo", "Durabilidade garantida"],
+      color: "from-sky-500 to-blue-500",
+      image: "ð"
     },
     {
       icon: Shield,
       title: "Cuidados & Higiene",
-      description: "Produtos de higiene e cuidados especializados para manter seu cão sempre limpo, saudável e cheiroso.",
-      features: ["Fórmulas suaves", "Dermatologicamente testado", "Fragrância agradável", "Proteção natural"],
+      description: "Produtos de higiene e cuidados especializados para manter seu cÃ£o sempre limpo, saudÃ¡vel e cheiroso.",
+      features: ["FÃ³rmulas suaves", "Dermatologicamente testado", "FragrÃ¢ncia agradÃ¡vel", "ProteÃ§Ã£o natural"],
       color: "from-green-500 to-teal-500",
-      image: "🛁"
+      image: "ð"
     },
     {
       icon: Sparkles,
       title: "Snacks Gourmet",
-      description: "Petiscos artesanais e saborosos, feitos com ingredientes selecionados para recompensar e agradar seu cão.",
-      features: ["Sabores únicos", "Ingredientes naturais", "Baixo em gordura", "Rico em vitaminas"],
-      color: "from-yellow-500 to-orange-500",
-      image: "🦴"
+      description: "Petiscos artesanais e saborosos, feitos com ingredientes selecionados para recompensar e agradar seu cÃ£o.",
+      features: ["Sabores Ãºnicos", "Ingredientes naturais", "Baixo em gordura", "Rico em vitaminas"],
+      color: "from-cyan-500 to-sky-500",
+      image: "ð¦´"
     },
     {
       icon: Truck,
       title: "Entrega Expressa",
-      description: "Serviço de entrega rápida e segura para que seu cão não fique nem um dia sem seus produtos favoritos.",
-      features: ["Entrega em 24h", "Embalagem segura", "Rastreamento online", "Frete grátis*"],
-      color: "from-indigo-500 to-blue-500",
-      image: "🚛"
+      description: "ServiÃ§o de entrega rÃ¡pida e segura para que seu cÃ£o nÃ£o fique nem um dia sem seus produtos favoritos.",
+      features: ["Entrega em 24h", "Embalagem segura", "Rastreamento online", "Frete grÃ¡tis*"],
+      color: "from-indigo-500 to-purple-500",
+      image: "ð"
     }
   ]
 
@@ -81,13 +81,13 @@ export default function Services() {
           </motion.div>
 
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
-            Tudo que seu cão{' '}
+            Tudo que seu cÃ£o{' '}
             <span className="gradient-text">ama e precisa</span>
-            <br />em um só lugar
+            <br />em um sÃ³ lugar
           </h2>
 
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Explore nossa seleção exclusiva de produtos premium, cuidadosamente escolhidos 
+            Explore nossa seleÃ§Ã£o exclusiva de produtos premium, cuidadosamente escolhidos 
             para proporcionar o melhor para seu melhor amigo.
           </p>
         </motion.div>
@@ -183,7 +183,7 @@ export default function Services() {
           </motion.div>
 
           <h3 className="text-3xl lg:text-4xl font-bold mb-4">
-            Pronto para fazer seu cão mais feliz?
+            Pronto para fazer seu cÃ£o mais feliz?
           </h3>
           
           <p className="text-orange-100 text-lg mb-8 max-w-2xl mx-auto">
@@ -208,7 +208,7 @@ export default function Services() {
               transition={{ duration: 2, repeat: Infinity }}
             >
               <Truck className="w-5 h-5" />
-              <span className="font-medium">Entrega rápida em toda região</span>
+              <span className="font-medium">Entrega rÃ¡pida em toda regiÃ£o</span>
             </motion.div>
           </div>
         </motion.div>
@@ -223,7 +223,7 @@ export default function Services() {
         >
           {[
             { icon: Shield, text: "Garantia Total", subtext: "100% Seguro" },
-            { icon: Truck, text: "Entrega Rápida", subtext: "24h-48h" },
+            { icon: Truck, text: "Entrega RÃ¡pida", subtext: "24h-48h" },
             { icon: Heart, text: "Suporte Especializado", subtext: "24/7" },
             { icon: Star, text: "Qualidade Premium", subtext: "Aprovado" }
           ].map((item, index) => {

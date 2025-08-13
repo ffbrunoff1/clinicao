@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 
 const Sidebar = ({ expanded, setExpanded }) => {
   const navItems = [
-    { name: 'Início', icon: Home, href: '#inicio' },
+    { name: 'InÃ­cio', icon: Home, href: '#inicio' },
     { name: 'Sobre', icon: Info, href: '#sobre' },
     { name: 'Produtos', icon: ShoppingBag, href: '#servicos' },
     { name: 'Contato', icon: Mail, href: '#contato' },
@@ -53,7 +53,7 @@ const Sidebar = ({ expanded, setExpanded }) => {
               transition={{ duration: 0.2 }}
               className="flex items-center space-x-2 overflow-hidden"
             >
-              <Heart className="w-7 h-7 text-orange-500 flex-shrink-0" />
+              <Heart className="w-7 h-7 text-blue-500 flex-shrink-0" />
               <span className="font-bold text-xl whitespace-nowrap">Clinicao</span>
             </motion.div>
           )}
@@ -73,7 +73,7 @@ const Sidebar = ({ expanded, setExpanded }) => {
           <button
             key={item.name}
             onClick={() => scrollToSection(item.href)}
-            className={`w-full flex items-center p-3 rounded-lg hover:bg-orange-600 transition-colors duration-200 ${!expanded ? 'justify-center' : ''}`}
+            className={`w-full flex items-center p-3 rounded-lg hover:bg-blue-600 transition-colors duration-200 ${!expanded ? 'justify-center' : ''}`}
           >
             <item.icon className="w-6 h-6 flex-shrink-0" />
             <AnimatePresence>
@@ -102,7 +102,7 @@ export default function App() {
 
   return (
     <Router>
-      <div className="flex min-h-screen bg-gradient-to-br from-orange-50 via-white to-purple-50">
+      <div className="flex min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
         <Sidebar expanded={isSidebarExpanded} setExpanded={setSidebarExpanded} />
         <div className="flex-1 flex flex-col w-full overflow-x-hidden">
           <Header />

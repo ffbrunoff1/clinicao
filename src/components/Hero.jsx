@@ -11,7 +11,7 @@ export default function Hero() {
   }
 
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-orange-400 via-red-500 to-purple-600">
+    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-400 via-indigo-500 to-purple-600">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-hero-pattern"></div>
@@ -81,7 +81,7 @@ export default function Hero() {
             className="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-sm rounded-full px-6 py-3 border border-white/30"
           >
             <Heart className="w-5 h-5 text-red-300" />
-            <span className="text-sm font-medium">Petshop Premium para Cães</span>
+            <span className="text-sm font-medium">Petshop Premium para CÃ£es</span>
             <Sparkles className="w-5 h-5 text-yellow-300" />
           </motion.div>
 
@@ -98,8 +98,8 @@ export default function Hero() {
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <span className="bg-gradient-to-r from-yellow-300 via-orange-200 to-red-300 bg-clip-text text-transparent">
-                cão precisa
+              <span className="bg-gradient-to-r from-cyan-300 via-blue-300 to-indigo-300 bg-clip-text text-transparent">
+                cÃ£o precisa
               </span>
               <motion.div
                 className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full"
@@ -109,7 +109,7 @@ export default function Hero() {
               />
             </motion.span>
             <br />
-            em um só lugar!
+            em um sÃ³ lugar!
           </motion.h1>
 
           {/* Subtitle */}
@@ -119,7 +119,7 @@ export default function Hero() {
             transition={{ delay: 0.8 }}
             className="text-xl sm:text-2xl text-orange-100 max-w-3xl mx-auto leading-relaxed"
           >
-            Porque seu melhor amigo merece o melhor. Explore nossa seleção exclusiva de produtos para cães.
+            Porque seu melhor amigo merece o melhor. Explore nossa seleÃ§Ã£o exclusiva de produtos para cÃ£es.
           </motion.p>
 
           {/* Call to Action Buttons */}
@@ -131,7 +131,7 @@ export default function Hero() {
           >
             <motion.button
               onClick={() => scrollToSection('#servicos')}
-              className="group bg-white text-orange-600 px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-3xl transition-all duration-300 flex items-center space-x-3"
+              className="group bg-white text-blue-600 px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-3xl transition-all duration-300 flex items-center space-x-3"
               whileHover={{ 
                 scale: 1.05, 
                 y: -3,
@@ -149,7 +149,7 @@ export default function Hero() {
 
             <motion.button
               onClick={() => scrollToSection('#contato')}
-              className="group bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-orange-600 transition-all duration-300 flex items-center space-x-3"
+              className="group bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-blue-600 transition-all duration-300 flex items-center space-x-3"
               whileHover={{ scale: 1.05, y: -3 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -191,7 +191,7 @@ export default function Hero() {
                 animate={{ scale: [1, 1.1, 1] }}
                 transition={{ duration: 2, repeat: Infinity, delay: 1 }}
               >
-                ♥
+                â¥
               </motion.div>
               <div className="text-orange-200 text-sm">Amor</div>
             </div>

@@ -15,9 +15,9 @@ export default function Header() {
   }, [])
 
   const menuItems = [
-    { name: 'Início', href: '#inicio' },
+    { name: 'InÃ­cio', href: '#inicio' },
     { name: 'Sobre', href: '#sobre' },
-    { name: 'Serviços', href: '#servicos' },
+    { name: 'ServiÃ§os', href: '#servicos' },
     { name: 'Contato', href: '#contato' }
   ]
 

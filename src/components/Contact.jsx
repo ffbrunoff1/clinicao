@@ -49,12 +49,12 @@ export default function Contact() {
       icon: Mail,
       title: "E-mail",
       content: "Envie sua mensagem",
-      action: "Escreva para nós",
+      action: "Escreva para nÃ³s",
       color: "from-blue-500 to-indigo-500"
     },
     {
       icon: MapPin,
-      title: "Localização",
+      title: "LocalizaÃ§Ã£o",
       content: "Venha nos visitar",
       action: "Ver no mapa",
       color: "from-purple-500 to-pink-500"
@@ -63,7 +63,7 @@ export default function Contact() {
 
   const businessHours = [
     { day: "Segunda a Sexta", hours: "8:00 - 18:00" },
-    { day: "Sábado", hours: "8:00 - 16:00" },
+    { day: "SÃ¡bado", hours: "8:00 - 16:00" },
     { day: "Domingo", hours: "9:00 - 14:00" }
   ]
 
@@ -92,7 +92,7 @@ export default function Contact() {
           </h2>
 
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Estamos aqui para ajudar você a escolher os melhores produtos para seu cão. 
+            Estamos aqui para ajudar vocÃª a escolher os melhores produtos para seu cÃ£o. 
             Entre em contato conosco e receba atendimento personalizado.
           </p>
         </motion.div>
@@ -135,7 +135,7 @@ export default function Contact() {
                           className={`text-sm font-medium bg-gradient-to-r ${info.color} bg-clip-text text-transparent hover:underline`}
                           whileHover={{ x: 5 }}
                         >
-                          {info.action} →
+                          {info.action} â
                         </motion.button>
                       </div>
                     </div>
@@ -160,7 +160,7 @@ export default function Contact() {
                 >
                   <Clock className="w-5 h-5" />
                 </motion.div>
-                <h3 className="text-lg font-semibold">Horários de Atendimento</h3>
+                <h3 className="text-lg font-semibold">HorÃ¡rios de Atendimento</h3>
               </div>
               
               <div className="space-y-2">
@@ -195,7 +195,7 @@ export default function Contact() {
                   Envie sua mensagem
                 </h3>
                 <p className="text-gray-600">
-                  Preencha o formulário abaixo e retornaremos seu contato o mais breve possível.
+                  Preencha o formulÃ¡rio abaixo e retornaremos seu contato o mais breve possÃ­vel.
                 </p>
               </div>
 
@@ -277,7 +277,7 @@ export default function Contact() {
                     required
                     rows={5}
                     className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all duration-300 resize-none"
-                    placeholder="Conte-nos como podemos ajudar você e seu cão..."
+                    placeholder="Conte-nos como podemos ajudar vocÃª e seu cÃ£o..."
                   />
                 </motion.div>
 
