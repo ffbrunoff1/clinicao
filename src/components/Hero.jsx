@@ -81,7 +81,7 @@ export default function Hero() {
             className="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-sm rounded-full px-6 py-3 border border-white/30"
           >
             <Heart className="w-5 h-5 text-red-300" />
-            <span className="text-sm font-medium">Petshop Premium para Cães</span>
+            <span className="text-sm font-medium">Petshop Premium para CÃ£es</span>
             <Sparkles className="w-5 h-5 text-yellow-300" />
           </motion.div>
 
@@ -99,7 +99,7 @@ export default function Hero() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <span className="bg-gradient-to-r from-yellow-300 via-orange-200 to-red-300 bg-clip-text text-transparent">
-                cão precisa
+                cÃ£o precisa
               </span>
               <motion.div
                 className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full"
@@ -109,7 +109,7 @@ export default function Hero() {
               />
             </motion.span>
             <br />
-            em um só lugar!
+            em um sÃ³ lugar!
           </motion.h1>
 
           {/* Subtitle */}
@@ -119,7 +119,7 @@ export default function Hero() {
             transition={{ delay: 0.8 }}
             className="text-xl sm:text-2xl text-orange-100 max-w-3xl mx-auto leading-relaxed"
           >
-            Porque seu melhor amigo merece o melhor. Explore nossa seleção exclusiva de produtos para cães.
+            Porque seu melhor amigo merece o melhor. Explore nossa seleÃ§Ã£o exclusiva de produtos para cÃ£es.
           </motion.p>
 
           {/* Call to Action Buttons */}
@@ -191,7 +191,7 @@ export default function Hero() {
                 animate={{ scale: [1, 1.1, 1] }}
                 transition={{ duration: 2, repeat: Infinity, delay: 1 }}
               >
-                ♥
+                â¥
               </motion.div>
               <div className="text-orange-200 text-sm">Amor</div>
             </div>

@@ -4,16 +4,16 @@ import { Heart, Mail, Phone, MapPin, Clock, Star, Shield, Award } from 'lucide-r
 
 export default function Footer() {
   const quickLinks = [
-    { name: 'Início', href: '#inicio' },
-    { name: 'Sobre Nós', href: '#sobre' },
+    { name: 'InÃ­cio', href: '#inicio' },
+    { name: 'Sobre NÃ³s', href: '#sobre' },
     { name: 'Nossos Produtos', href: '#servicos' },
     { name: 'Contato', href: '#contato' }
   ]
 
   const productCategories = [
-    'Ração Premium',
+    'RaÃ§Ã£o Premium',
     'Brinquedos Interativos',
-    'Acessórios de Luxo',
+    'AcessÃ³rios de Luxo',
     'Cuidados & Higiene',
     'Snacks Gourmet',
     'Entrega Expressa'
@@ -76,8 +76,8 @@ export default function Footer() {
             </motion.div>
 
             <p className="text-gray-300 leading-relaxed mb-6">
-              Cuidando do seu melhor amigo com amor, dedicação e produtos de qualidade premium. 
-              Porque cada cão merece o melhor.
+              Cuidando do seu melhor amigo com amor, dedicaÃ§Ã£o e produtos de qualidade premium. 
+              Porque cada cÃ£o merece o melhor.
             </p>
 
             {/* Trust Badges */}
@@ -109,7 +109,7 @@ export default function Footer() {
             transition={{ duration: 0.8, delay: 0.1 }}
             viewport={{ once: true }}
           >
-            <h4 className="text-lg font-semibold mb-6 text-orange-300">Links Rápidos</h4>
+            <h4 className="text-lg font-semibold mb-6 text-orange-300">Links RÃ¡pidos</h4>
             <div className="space-y-3">
               {quickLinks.map((link, index) => (
                 <motion.button
@@ -194,9 +194,9 @@ export default function Footer() {
               >
                 <Clock className="w-5 h-5 text-orange-400 mt-0.5 flex-shrink-0" />
                 <div>
-                  <p className="text-gray-300 text-sm">Horário</p>
+                  <p className="text-gray-300 text-sm">HorÃ¡rio</p>
                   <p className="text-orange-300 font-medium">Seg-Sex: 8h-18h</p>
-                  <p className="text-orange-300 font-medium">Sáb: 8h-16h</p>
+                  <p className="text-orange-300 font-medium">SÃ¡b: 8h-16h</p>
                   <p className="text-orange-300 font-medium">Dom: 9h-14h</p>
                 </div>
               </motion.div>
@@ -229,7 +229,7 @@ export default function Footer() {
             {/* Copyright */}
             <div className="text-center md:text-left">
               <p className="text-gray-400">
-                © 2023 Clinicao. Todos os direitos reservados.
+                Â© 2023 Clinicao. Todos os direitos reservados.
               </p>
               <p className="text-gray-500 text-sm mt-1">
                 Criado com{' '}
@@ -238,7 +238,7 @@ export default function Footer() {
                   animate={{ scale: [1, 1.2, 1] }}
                   transition={{ duration: 1.5, repeat: Infinity }}
                 >
-                  ♥
+                  â¥
                 </motion.span>
                 {' '}por{' '}
                 <a 
@@ -263,7 +263,7 @@ export default function Footer() {
                 animate={{ y: [0, -3, 0] }}
                 transition={{ duration: 1.5, repeat: Infinity }}
               >
-                ↑
+                â
               </motion.div>
               <span className="hidden md:inline text-sm font-medium">Voltar ao Topo</span>
             </motion.button>
